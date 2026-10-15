@@ -275,3 +275,10 @@ venv_old/
 # Streamlit secrets
 .streamlit/secrets.toml
 
+
+# Facial palsy: exclude datasets and generated files
+facial_palsy/data/
+facial_palsy/**/__pycache__/
+facial_palsy/**/*.pyc
+facial_palsy/live/temp/
+facial_palsy/outputs/live_captures/
