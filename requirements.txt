@@ -7,3 +7,7 @@ opencv-python-headless
 pandas
 scikit-learn
 matplotlib
+reportlab
+mediapipe
+joblib
+
