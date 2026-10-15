@@ -10,4 +10,6 @@ matplotlib
 reportlab
 mediapipe
 joblib
+streamlit-webrtc
+av
 
