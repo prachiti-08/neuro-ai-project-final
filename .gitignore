@@ -250,3 +250,28 @@ neurovision_cases.db
 
 # Temporary files
 tempCodeRunnerFile.py
+
+# Local model and experiment artifacts
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports (keep the folder, exclude generated files)
+reports/*
+!reports/.gitkeep
+
+# Temporary upload and backup folders
+github-upload/
+venv_old/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
