@@ -5,7 +5,7 @@ numpy
 pillow
 opencv-python-headless
 pandas
-scikit-learn
+scikit-learn==1.7.2
 matplotlib
 reportlab
 mediapipe
