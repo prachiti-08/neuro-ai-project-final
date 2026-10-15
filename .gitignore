@@ -218,3 +218,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local Python environments
+.venv/
+venv/
+venv_old/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Datasets and training experiments
+dataset/
+dataset_new/
+test images/
+github-upload/
+
+# Generated reports and logs
+reports/*
+*.log
+
+# Local database and patient/case records
+neurovision_cases.db
+*.sqlite
+*.sqlite3
+
+# Local secrets
+.env
+.streamlit/secrets.toml
+
+# Temporary files
+tempCodeRunnerFile.py
